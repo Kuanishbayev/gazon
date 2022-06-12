@@ -1,0 +1,64 @@
+@import 'fonts.css';
+:root {
+    --f700: 'Montserrat-Bold';
+    --f400: 'Montserrat-Regular';
+    --ps400: 'Product-Sans-Regular';
+    --dark: #282929;
+    --yellow: #d3a90b;
+}
+
+body {
+    background: var(--dark);
+}
+
+.logo {
+    border: 1px solid transparent;
+    border-image: 1 linear-gradient(133deg, #ffffff 35%, #ffcb02 65%);
+    font-size: 26px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    transition: 0.5s ease;
+    font-family: var(--ps400);
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+.logo__text {
+    color: var(--yellow);
+    font-size: 26px;
+}
+
+.header__nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--ps400);
+    margin-left: 55px;
+    transition: 0.5s ease;
+}
+
+.header__nav-link:hover {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+.header_text {
+    background: url(../images/header_img_bg.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+
+.header__text-title {
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header__text-end {
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 55px;
+}
